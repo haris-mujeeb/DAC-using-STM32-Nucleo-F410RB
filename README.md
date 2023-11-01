@@ -54,6 +54,7 @@ int main(void)
 								  DAC_ALIGN_12B_R, valuesBuffer[i]);
 		  HAL_Delay(1);
 	  }
+...
 ```
 ## 2. DMA Mode:
 ## Scope Output:
