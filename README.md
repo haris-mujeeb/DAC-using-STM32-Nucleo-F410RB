@@ -12,7 +12,7 @@ Like the ADC peripheral, even the DAC **can be triggered by a dedicated timer**,
 
 
 # 1. Polling Mode:
-## Results:
+## Scope Output:
 ![alt text](https://github.com/haris-mujeeb/DAC-using-STM32-Nucleo-F410RB/blob/main/DAC%20Polling%20Mode%20-Scope%20Output.jpg)
 *Note: In the code uploaded above, only sine waves are generated for both modes (no triangle wave is generated).
 
@@ -66,7 +66,6 @@ int main(void)
 - Enable _'Trigger Out Event'_ for DAC in DAC Parameters Settings.
 
 - Also make sure to run Timer with *Trigger Output* set to *Update Event*.
-### Scope Out:
 ```C
 ...
 int main(void)
