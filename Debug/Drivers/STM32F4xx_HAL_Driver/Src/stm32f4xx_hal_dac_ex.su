@@ -1,0 +1,2 @@
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c:181:19:HAL_DACEx_TriangleWaveGenerate	24	static
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c:231:19:HAL_DACEx_NoiseWaveGenerate	24	static
